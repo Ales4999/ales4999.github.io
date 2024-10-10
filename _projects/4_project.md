@@ -49,13 +49,13 @@ I had the opportunity to represent my football team league and state when I got 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foot_U15.jpg" title="foot_bucs" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/foot_u15.jpg" title="foot_u15" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foot_U153.jpg" title="foot_U152" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/foot_u153.jpg" title="foot_U153" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foot_U152.jpg" title="foot_U153" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/foot_u152.jpg" title="foot_U152" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
