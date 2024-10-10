@@ -18,9 +18,6 @@ It served me as a way to form habits of discipline and endurance against tough c
         {% include figure.liquid loading="eager" path="assets/img/foot_small.jpg" title="foot_small" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foot_small2.jpg" title="foot_small2" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/foot_small3.jpg" title="foot_small3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -35,9 +32,6 @@ I started to develop as a person and a player at <a href="http://www.bucaneros.c
         {% include figure.liquid loading="eager" path="assets/img/foot_bucs.jpg" title="foot_bucs" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foot_bucs2.jpg" title="foot_bucs2" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/foot_bucs3.jpg" title="foot_bucs3" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -50,9 +44,6 @@ I had the opportunity to represent my football team league and state when I got 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/foot_u15.jpg" title="foot_u15" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foot_u153.jpg" title="foot_U153" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/foot_u152.jpg" title="foot_U152" class="img-fluid rounded z-depth-1" %}
@@ -86,9 +77,6 @@ The last chapter of my football career happened in Colorado, where I had the opp
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/foot_summit.jpg" title="foot_summit" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/foot_summit3.jpg" title="foot_summit" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/foot_summit2.jpg" title="foot_summit" class="img-fluid rounded z-depth-1" %}
