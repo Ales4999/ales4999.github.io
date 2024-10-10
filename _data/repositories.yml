@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ales4999
 
-repo_description_lines_max: 2
+repo_description_lines_max: 5
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Ales4999/ales4999.github.io
+  - Ales4999/CSCI3302_LabTeam

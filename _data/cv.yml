@@ -2,11 +2,17 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Alberto Espinosa de los Monteros
+    - name: Label
+      value: Computer Science Student
+    - name: Email
+      value: alberto.espinosa@colorado.edu
+    - name: Phone
+      value: +1 970 771 6665
+    - name: Summary
+      value: A passionate Computer Science student at the University of Colorado Boulder, specializing in software development, robotics, embedded systems, data science, and computer architecture. With a diverse skill set and hands-on project experience, I am eager to apply my knowledge in the professional world.
+    - name: Location
+      value: Boulder, Colorado, US
 
 - title: Education
   type: time_table

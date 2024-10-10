@@ -1,81 +1,74 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Tic-Tac-Toe Game on STM32 Board
+description: STM32 Tic-Tac-Toe Game with HAL, Interrupts, and Timers
+img: assets/img/emd_board.jpg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project features a fully implemented Tic-Tac-Toe game on an STM32F429i Discovery Board, focusing on integrating peripherals via the HAL, handling external interrupts for user input, and using timers to manage game timing. An AI opponent was created using RNG for single-player mode.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/emb_codeHier.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/emb_board2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    This was my final project for ECEN 2370 - Embedded Systems. It is an implementation of the known and loved game of Tic-Tac-Toe using a STM32F429i Discovery Board. This project relies on the effective use of the HAL (Hardware Abstraction Layer) in order to correctly access and manipulate the peripherals from the board in order to implement the game functionality.  The game allows for 2 playing modes, single player and multiplayer respectively, as well as accurate tracking of playing time and total record of wins. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="project-scope mt-4">
+  <h3>Project Scope</h3>
+  <p>This project scope covered virtually all the topics learned throughout the course. The breakdown is as follows:</p>
+  
+  <ul>
+    <li><strong>Utilized Peripherals:</strong>
+      <ul>
+        <li><strong>RNG (Random Number Generator):</strong> Used for random moves in the game.</li>
+        <li><strong>Timers:</strong> Used for timing game events.</li>
+        <li><strong>Interrupts:</strong> Used for handling user input and game reset logic.</li>
+        <li><strong>LCD Screen:</strong> Displayed the intro screen, game board, and game result screen.</li>
+      </ul>
+    </li>
+    
+    <li> <strong>Tic-Tac-Toe Game:</strong>
+      <ul>
+        <li>Standard 3x3 game board.</li>
+        <li>User selects either single player or multiplayer mode.</li>
+        <li>Implemented X’s and O’s.</li>
+        <li>Game ends when someone gets 3 in a row or if there is a stalemate.</li>
+      </ul>
+    </li>
+    
+    <li><strong>Additional Requirements Implemented:</strong>
+      <ul>
+        <li>Created two screens besides the game board screen:
+          <ul>
+            <li>One for selecting the game mode.</li>
+            <li>One for displaying game results, time elapsed, and current record (W-L-Ties).</li>
+          </ul>
+        </li>
+        <li>Implemented AI logic for 1 player using the RNG (brute force possibilities).</li>
+      </ul>
+    </li>
+  </ul>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+<div class="key-features mt-4"> 
+    <h3>Key Features</h3> 
+    <ul> 
+    <li>Designed a <strong>user-friendly interface</strong> on the LCD screen for game mode selection, gameplay, and result display.</li>
+    <li>Created <strong>AI opponent</strong> using RNG-based logic for dynamic single-player mode.</li>
+    <li>Utilized <strong>HAL</strong> for peripheral control, including the LCD, timers, and RNG.</li>
+    <li>Implemented <strong>external interrupts</strong> for user input and game resets.</li>
+    </ul> 
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="project-pdf mt-4">
+  <h3>Project Documentation</h3>
+    <iframe src="/assets/pdf/emb_doc.pdf" width="100%" height="800px"></iframe>
 </div>
-```
-
-{% endraw %}
