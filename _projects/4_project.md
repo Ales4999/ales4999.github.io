@@ -11,7 +11,7 @@ This project highlights my journey through my football career, including key ach
 
 I started playing American Football from a very young age. It acted as a guide and a place that I know associate with safety. Inside the field, I could let go of all my problems and focus on one thing, the game. 
 
-It served me as a way to form habits of discipline and endurance against tough conditions. 
+It served me as a way to form habits of discipline and endurance against tough conditions. This has translated to every aspect of my life.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
