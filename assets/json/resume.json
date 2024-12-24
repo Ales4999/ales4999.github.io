@@ -14,7 +14,7 @@
   "education": [
     {
       "institution": "University of Colorado Boulder",
-      "area": "Computer Science | GPA: 3.435/4.0",
+      "area": "Computer Science | GPA: 3.486/4.0",
       "studyType": "Bachelors of Science",
       "startDate": "2020-08-26",
       "endDate": "2025-05-01",
@@ -39,47 +39,30 @@
       ]
     },
     {
-      "name": "Web Development",
+      "name": "Web Development & Development Tools",
       "level": "",
       "keywords": [
-        "HTML5",
-        "CSS3",
-        "React.js",
-        "Angular",
-        "Node.js",
-        "Bootstrap",
-        "AJAX",
-        "JavaScript"
+        "HTML5, CSS3, React.js, Angular, Bootstrap, AJAX, JavaScript",
+        "Git, Jenkins, Docker, JIRA, Agile, UML, Docker, Kubernetes, AWS"
       ]
     },
     {
-      "name": "Analytics & Databases",
+      "name": "Machine Learning, Analytics & Databases",
       "level": "",
       "keywords": [
-        "NumPy",
-        "Scipy",
-        "Seaborn",
-        "Pandas",
-        "Matplotlib",
-        "Scikit-learn",
-        "MySQL",
-        "PostgreSQL",
-        "Cassandra",
-        "MongoDB"
+        "Scikit-learn, OpenCV, TensorFlow, PyTorch",
+        "NumPy, Scipy, Pandas, Seaborn, Matplotlib",
+        "MySQL, PostgreSQL, Cassandra, MongoDB"
       ]
     },
     {
       "name": "Networking",
       "level": "",
       "keywords": [
-        "LAN/WAN",
-        "TCP/IP",
-        "UDP",
-        "IPv4/IPv6",
-        "DNS/DHCP",
-        "ARP",
-        "NAT",
-        "DHT"
+        "Routing Protocols: BGP, OSPF, ECMP, MPLS",
+        "Networking: LAN/WAN, TCP/IP, UDP, IPv4/IPv6, DNS/DHCP, ARP, NAT, and DHT",
+        "Network Security Protocols: TLS, PGP, IPSec, Encryption, Auth",
+        "Algorithms: VPN configuration, TCP congestion control, Firewalls (Forward/Reverse Proxy), BDP"
       ]
     },
     {
@@ -93,18 +76,6 @@
         "ROS (Webots)",
         "CodAL (RISC-V ISA)",
         "ADAS technologies (LiDAR, Radar, Computer Vision, RRT, ML, SLAM, IK)"
-      ]
-    },
-    {
-      "name": "Development Tools",
-      "level": "",
-      "keywords": [
-        "Git",
-        "Jenkins",
-        "Docker",
-        "JIRA",
-        "Agile",
-        "UML"
       ]
     }
   ],
@@ -122,6 +93,20 @@
         "Implemented Color Blob Detection for object identification.",
         "Applied RRT algorithm for optimal path computation.",
         "Controlled the robot's arm using Inverse Kinematics for object retrieval."
+      ]
+    },
+    {
+      "name": "Machine Learning for Disaster Relief in Python",
+      "position": "Project Manager & Lead Developer",
+      "location": "Boulder, CO",
+      "startDate": "2024-08-31",
+      "endDate": "2024-12-16",
+      "summary": "To use historical disaster data from the EM-DAT database to predict at-risk regions and optimize disaster relief resource allocation. The project focused on analyzing disaster types, severity, and their impacts to guide data-driven decision-making.",
+      "highlights": [
+        "Applied a comprehensive exploratory data analysis (EDA) on EM-DAT dataset to identify critical features and patterns.",
+        "Implemented machine learning models (Random Forests, Gradient Boosting, SVM) to predict disaster risk and optimize resource allocation using EM-DAT historical data.",
+        "Achieved 60% accuracy with Gradient Boosting Classifier for disaster severity prediction; identified key factors like affected population and disaster duration.",
+        "Conducted data preprocessing, feature selection, and class balancing to improve model performance and highlight disaster trends for resource planning."
       ]
     },
     {
