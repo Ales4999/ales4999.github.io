@@ -3,7 +3,7 @@ layout: page
 title: EDA Smoking in UK
 description: A final project for CSCI3022 Intro to Data Science
 img: assets/img/eda_smoke_age.jpg
-importance: 2
+importance: 4
 category: work
 giscus_comments: false
 ---
