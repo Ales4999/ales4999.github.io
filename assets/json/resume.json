@@ -1,10 +1,9 @@
 {
   "basics": {
     "name": "Alberto Espinosa de los Monteros",
-    "label": "Computer Science Student",
     "email": "alberto.espinosa@colorado.edu",
     "phone": "+1 970 771 6665",
-    "summary": "A passionate Computer Science student at the University of Colorado Boulder, specializing in software development, robotics, embedded systems, data science, and computer architecture. With a diverse skill set and hands-on project experience, I am eager to apply my knowledge in the professional world.",
+    "summary": "Detail-oriented with a strong focus on software engineering and AI. Experienced in developing scalable, high-performance systems through full-stack development, API design, and machine learning integration. Passionate about writing clean, maintainable code and contributing to teams that build impactful, user-focused technology.",
     "location": {
       "city": "Boulder",
       "region": "Colorado",
@@ -14,7 +13,7 @@
   "education": [
     {
       "institution": "University of Colorado Boulder",
-      "area": "Computer Science | GPA: 3.486/4.0",
+      "area": "Computer Science | GPA: 3.51/4.0",
       "studyType": "Bachelors of Science",
       "startDate": "2020-08-26",
       "endDate": "2025-05-01",
@@ -24,65 +23,82 @@
       ]
     }
   ],
-  "skills": [
+  "awards": [
     {
-      "name": "Languages",
-      "level": "",
-      "keywords": [
-        "C/C++ (Proficient)",
-        "Python (Proficient)",
-        "Java (Intermediate)",
-        "Scala (Intermediate)",
-        "Verilog (Beginner)",
-        "Swift (Beginner)",
-        "CodAL (Proficient)"
-      ]
+      "title": "Dean's List",
+      "date": "2021-12-01",
+      "awarder": "University of Colorado Boulder",
+      "summary": "Recognized for academic excellence and outstanding performance in coursework. \n\n Achieved Dean's List status for the following semesters: \n\n Fall 2020, Spring 2021, Fall 2021, Spring 2024, Fall 2024, and Spring 2025.",
+      "url": "https://www.colorado.edu/registrar/deans-list"
     },
     {
-      "name": "Web Development & Development Tools",
-      "level": "",
-      "keywords": [
-        "HTML5, CSS3, React.js, Angular, Bootstrap, AJAX, JavaScript",
-        "Git, Jenkins, Docker, JIRA, Agile, UML, Docker, Kubernetes, AWS"
-      ]
+      "title": "CU Boulder BOLD Scholar",
+      "date": "2020-08-01",
+      "awarder": "Society of Hispanic Professional Engineers",
+      "summary": "Selected for the BOLD program, promoting professional development among Hispanic students in STEM."
     },
     {
-      "name": "Machine Learning, Analytics & Databases",
-      "level": "",
-      "keywords": [
-        "Scikit-learn, OpenCV, TensorFlow, PyTorch",
-        "NumPy, Scipy, Pandas, Seaborn, Matplotlib",
-        "MySQL, PostgreSQL, Cassandra, MongoDB"
-      ]
+      "title": "Ted Sizer Award",
+      "date": "2020-08-01",
+      "awarder": "The peak School",
+      "summary": "Recognized for outstanding leadership and commitment to the school's values and community."
     },
     {
-      "name": "Networking",
-      "level": "",
-      "keywords": [
-        "Routing Protocols: BGP, OSPF, ECMP, MPLS",
-        "Networking: LAN/WAN, TCP/IP, UDP, IPv4/IPv6, DNS/DHCP, ARP, NAT, and DHT",
-        "Network Security Protocols: TLS, PGP, IPSec, Encryption, Auth",
-        "Algorithms: VPN configuration, TCP congestion control, Firewalls (Forward/Reverse Proxy), BDP"
-      ]
-    },
+      "title": "Summit Foundation Award",
+      "date": "2020-08-01",
+      "awarder": "The Summit Foundation",
+      "summary": "Awarded for academic excellence and community service during high school."
+    }
+  ],
+  "work": [
     {
-      "name": "Embedded & Robotics Frameworks",
-      "level": "",
-      "keywords": [
-        "RTOS",
-        "Microcontrollers (ARM Cortex-M4, STM32)",
-        "3D CAD design (Solidworks)",
-        "UART/USART/SPI/I2C",
-        "ROS (Webots)",
-        "CodAL (RISC-V ISA)",
-        "ADAS technologies (LiDAR, Radar, Computer Vision, RRT, ML, SLAM, IK)"
+      "name": "Global Healthcare Exchange (GHX)",
+      "position": "Contract Software Engineer",
+      "url": "https://www.ghx.com",
+      "location": "Louisville, CO",
+      "startDate": "2024-08-01",
+      "endDate": "",
+      "summary": "Contracted to lead development of an AI-driven system combining rule-based logic and LLMs for medical product matching.",
+      "highlights": [
+        "Built a hybrid Prolog + LLM product matching system to reduce manual review by over 25 hours/week.",
+        "Designed and maintained Python APIs for real-time processing with SQL, Prolog, and OpenAI models.",
+        "Deployed the system on AWS EC2 using Docker and CI/CD pipelines with secure modular architecture."
       ]
     }
   ],
   "projects": [
     {
+      "name": "AI-Powered Summarizer (HackCU11)",
+      "url": "https://devpost.com/software/take-a-note?ref_content=my-projects-tab&ref_feature=my_projects",
+      "position": "Full-Stack Developer",
+      "location": "Boulder, CO",
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-03",
+      "summary": "Built a real-time lecture summarizer using Flask, OpenAI Whisper, and GPT-4 in 24 hours during HackCU11.",
+      "highlights": [
+        "Achieved 95%+ transcription and summarization accuracy.",
+        "Processed 25MB+ audio/video files in <10 seconds.",
+        "Engineered robust backend pipelines and UI for note review."
+      ]
+    },
+    {
+      "name": "AWS DeepRacer Autonomous Vehicle",
+      "url": "https://ales4999.github.io/projects/1_project/",
+      "position": "Embedded Systems & Controls Engineer",
+      "location": "Boulder, CO",
+      "startDate": "2024-02-01",
+      "endDate": "2024-05-01",
+      "summary": "Designed an autonomous vehicle using Raspberry Pi, LiDAR, ROS2, and camera modules for local edge-compute driving.",
+      "highlights": [
+        "Boosted localization by 80% using EKF and optical flow fusion.",
+        "Implemented PID and MPC controllers to cut trajectory deviation by 60%.",
+        "Achieved smooth lap performance and control stability."
+      ]
+    },
+    {
       "name": "Fully Autonomous Robot in Python",
-      "position": "Programmer",
+      "url": "https://ales4999.github.io/projects/1_project/",
+      "position": "Devedloper",
       "location": "Boulder, CO",
       "startDate": "2023-08-01",
       "endDate": "2023-12-01",
@@ -97,34 +113,20 @@
     },
     {
       "name": "Machine Learning for Disaster Relief in Python",
+      "url": "https://ales4999.github.io/projects/5_project/",
       "position": "Project Manager & Lead Developer",
       "location": "Boulder, CO",
       "startDate": "2024-08-31",
       "endDate": "2024-12-16",
       "summary": "To use historical disaster data from the EM-DAT database to predict at-risk regions and optimize disaster relief resource allocation. The project focused on analyzing disaster types, severity, and their impacts to guide data-driven decision-making.",
       "highlights": [
-        "Applied a comprehensive exploratory data analysis (EDA) on EM-DAT dataset to identify critical features and patterns.",
-        "Implemented machine learning models (Random Forests, Gradient Boosting, SVM) to predict disaster risk and optimize resource allocation using EM-DAT historical data.",
-        "Achieved 60% accuracy with Gradient Boosting Classifier for disaster severity prediction; identified key factors like affected population and disaster duration.",
-        "Conducted data preprocessing, feature selection, and class balancing to improve model performance and highlight disaster trends for resource planning."
-      ]
-    },
-    {
-      "name": "EDA on Smoking Habits in the UK in Python",
-      "position": "Data Science",
-      "location": "Boulder, CO",
-      "startDate": "2023-05-01",
-      "endDate": "2023-08-01",
-      "summary": "Conducted exploratory data analysis on smoking habits using Python, uncovering insights on categorical and numerical variables.",
-      "highlights": [
-        "Cleaned and pre-processed large datasets.",
-        "Performed univariate and multivariate analysis.",
-        "Visualized relationships using NumPy, Pandas, Seaborn, and Matplotlib.",
-        "Delivered statistical insights on smoking trends."
+        "Built ML models (Random Forest, SVM, Gradient Boosting) to predict disaster severity with up to 69% accuracy.",
+        "Developed an end-to-end ETL pipeline with imputation, feature engineering, and class balancing; led model evaluation and comparative analysis across disaster types for resource allocation."
       ]
     },
     {
       "name": "STM32 Board Project in C++",
+      "url": "https://ales4999.github.io/projects/3_project/",
       "position": "Embedded Systems Developer",
       "location": "Boulder, CO",
       "startDate": "2024-01-01",
@@ -149,54 +151,6 @@
       ]
     },
     {
-      "name": "RISC-V ISA Processor Modeling in CodAL",
-      "position": "Computer Architect",
-      "location": "Boulder, CO",
-      "startDate": "2024-01-01",
-      "endDate": "2024-05-01",
-      "summary": "Modeled instruction-accurate RISC-V processor with core instructions, pipeline forwarding logic, and memory operations.",
-      "highlights": [
-        "Resolved data hazards using pipeline forwarding.",
-        "Ensured cycle-accurate models for performance-critical operations."
-      ]
-    },
-    {
-      "name": "Multi-Threaded Application in C++",
-      "position": "Programmer",
-      "location": "Boulder, CO",
-      "startDate": "2023-08-01",
-      "endDate": "2023-12-01",
-      "summary": "Built a multi-threaded C application to resolve domain names to IP addresses using socket programming.",
-      "highlights": [
-        "Designed a producer-consumer system for processing input files with individual threads.",
-        "Utilized mutexes, semaphores, and condition variables to synchronize threads and ensure thread-safe access."
-      ]
-    },
-    {
-      "name": "TCP-Based Web Server in C",
-      "position": "Systems Developer",
-      "location": "Boulder, CO",
-      "startDate": "2024-01-01",
-      "endDate": "2024-05-01",
-      "summary": "Created a TCP-based, multi-threaded web server capable of handling simultaneous client requests.",
-      "highlights": [
-        "Implemented HTTP request parsing and response handling.",
-        "Used thread synchronization to manage concurrent requests efficiently."
-      ]
-    },
-    {
-      "name": "HTTP Proxy Server in C++",
-      "position": "Systems Developer",
-      "location": "Boulder, CO",
-      "startDate": "2024-01-01",
-      "endDate": "2024-05-01",
-      "summary": "Designed and implemented an HTTP proxy server to relay client HTTP requests and forward responses.",
-      "highlights": [
-        "Built caching mechanisms to improve performance and reduce bandwidth usage.",
-        "Implemented content filtering and transformation for client requests."
-      ]
-    },
-    {
       "name": "Distributed File System (DFS) in C++",
       "position": "Systems Developer",
       "location": "Boulder, CO",
@@ -212,7 +166,7 @@
   "volunteer": [
     {
       "organization": "Society of Hispanic Professional Engineers",
-      "position": "BOLD Scholar",
+      "position": "SHPE Scholar",
       "location": "Boulder, CO",
       "startDate": "2020-08-01",
       "summary": "Participated in workshops and networking events to promote professional development among Hispanic students in STEM."
@@ -258,11 +212,94 @@
       "summary": "Formed part of the coaching staff for the youth football team for kids 9 to 10 years old."
     }
   ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "C/C++ (Proficient)",
+        "Python (Proficient)",
+        "Java (Intermediate)",
+        "Scala (Intermediate)",
+        "Swift (Beginner)",
+        "Verilog (Beginner)"
+      ]
+    },
+    {
+      "name": "Web Development & Development Tools",
+      "level": "",
+      "keywords": [
+        "Languages & Frontend: HTML, CSS, JavaScript, React",
+        "Backend & Web Frameworks: Flask, Node.js, Express.js",
+        "API Development: RESTful APIs, GraphQL",
+        "Containerization & DevOps: Docker, Kubernetes, GitHub Actions (CI/CD)",
+        "Version Control: Git, GitHub",
+        "Cloud Platforms: AWS (EC2, S3, Lambda)",
+        "Testing: PyTest, Unit Testing, Integration",
+        "Authentication: OAuth2",
+        "Web Security: HTTPS, CORS, CSRF, XSS",
+        "Software Design: Object-Oriented Programming, Modular Architecture",
+        "Agile Practices: Scrum, Jira, Code Reviews",
+        "Performance: Caching, Load Balancing, Asynchronous Processing"
+      ]
+    },
+    {
+      "name": "Machine Learning, Analytics",
+      "level": "",
+      "keywords": [
+        "Machine Learning: TensorFlow, PyTorch, Scikit-learn",
+        "Data Analysis: Pandas, NumPy, Matplotlib, Seaborn",
+        "Natural Language Processing: OpenAI API",
+        "Computer Vision: OpenCV, YOLOv5",
+        "Data Processing: ETL, Data Cleaning, Feature Engineering",
+        "Statistical Analysis: Hypothesis Testing, Regression Analysis",
+        "Algorithms: KNN, SVM, Decision Trees, Random Forests, Neural Networks"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "",
+      "keywords": [
+        "Protocols: TCP/IP, UDP, IPv4/IPv6, DNS, DHCP, NAT",
+        "Network Programming: Socket Programming (TCP/UDP), Multi-threaded Servers",
+        "Reliability Mechanisms: Packet Retransmission, Windowing, Congestion Control",
+        "Security: TLS, Encryption, Authentication",
+        "Systems & Architecture: LAN/WAN, Proxy Servers, Load Balancing",
+        "Tools & Concepts: Wireshark, Netcat, Port Scanning, Firewalls"
+      ]
+    },
+    {
+      "name": "Embedded & Robotics Frameworks",
+      "level": "Proificient",
+      "keywords": [
+        "Frameworks & Middleware: ROS, ROS2",
+        "Microcontrollers: STM32, ARM Cortex-M4",
+        "Sensors & Perception: LiDAR, IMU, GPS, RGB Cameras",
+        "Actuation: Servos, DC Motors, Relays",
+        "Control Systems: PID, Extended Kalman Filter (EKF)",
+        "Computer Vision: OpenCV, TensorFlow",
+        "Machine Learning Integration: TensorFlow, PyTorch",
+        "Autonomy: SLAM (EKF-SLAM), Path Planning (A*, RRT*)",
+        "Communication Protocols: UART, SPI, I2C"
+      ]
+    },
+    {
+      "name": "Databese Management",
+      "level": "Proificient",
+      "keywords": [
+        "SQL (MySQL, PostgreSQL)",
+        "NoSQL (MongoDB, Cassandra)",
+        "Distributed Databases (Cassandra, CockroachDB)",
+        "Data Visualization (Tableau, Power BI)",
+        "Data Security (Encryption, Access Control)"
+      ]
+    }
+  ],
   "interests": [
     {
       "name": "Football",
       "keywords": [
-        "I played football for 8 years of my life, from 8 years old, until I was 18",
+        "I played football for 10 years of my life, from 8 years old, until I was 18",
         "Got the opportunity to represent my country on an international U-15 game",
         "I got the privilage of being named Captian for the Summit Tigers Football team in highschool.",
         "I played inside linebacker, running back, and special teams."

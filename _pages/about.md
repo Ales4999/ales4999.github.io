@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 I'm a **Computer Science student** at the <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a>, graduating in **May 2025**, with minors in <a href="https://www.colorado.edu/business/academic-programs/minor-business">Business</a> and <a href="https://www.colorado.edu/academics/minor-computer-engineering">Computer Engineering</a>. My passion lies in building systems that are **scalable**, **impactful**, and **reliable**. 
 
-### Some of my intersets 
+### My Intersets 
 - 🎯 <a href="https://ales4999.github.io/projects/1_project/">Software Development</a> — I enjoy building scalable, elegant software that solves real-world problems and delivers lasting impact.
 
 
@@ -58,14 +58,3 @@ These strengths shape how I approach both technology and teamwork.
 I value **precision**, **teamwork**, and **continuous growth**. Whether writing code or collaborating cross-functionally, I aim to bring thoughtful solutions and a commitment to excellence. I'm always looking for the next opportunity to learn, grow, and contribute.
 
 ---
-
-### 🛠️ Technical Skills
-
-- **Languages:** <code>Python, C++, Java, SQL (MySQL, PostgreSQL)</code>  
-- **AI/ML Frameworks:** <code>Scikit-learn, TensorFlow, PyTorch, NumPy, Pandas, OpenCV</code>  
-- **Software Development:** <code>Object-Oriented Programming (OOP), REST APIs, Git, Agile</code>  
-- **Data & Backend Tools:** <code>MongoDB, Docker, Kubernetes, Jenkins</code>  
-- **System Design & Performance:** <code>Data Structures & Algorithms, Multi-threading, Linux</code>  
-- **DevOps & Workflow:** <code>CI/CD, JIRA, Version Control, Unit Testing</code>  
-- **Networking Systems:** <code>TCP/UDP protocols, socket programming, high-load system handling</code>  
-- **Robotics & Embedded Systems:** <code>ROS2, LiDAR, RTOS, STM32, UART, SPI, I2C</code>

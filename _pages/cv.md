@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
-cv_pdf: gen_resume_f24.pdf
-description: Feel free to look around my CV! For more information about the projects I have worked on, please refer to the projects tab. 
+cv_pdf: GHX_Resume_Espinosa.pdf
+description: This is the extended version of my CV, offering a detailed overview of my academic background, technical skills, professional experiences, and leadership roles. Click the icon to download my latest version.
 toc:
   sidebar: left
 ---
