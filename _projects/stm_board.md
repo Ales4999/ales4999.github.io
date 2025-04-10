@@ -2,24 +2,36 @@
 layout: page
 title: Tic-Tac-Toe Game on STM32 Board
 description: STM32 Tic-Tac-Toe Game with HAL, Interrupts, and Timers
-img: assets/img/emd_board.jpg
+img: assets/img/embed/emd_board.jpg
 importance: 3
-category: work
+category: School
 ---
 
-This project features a fully implemented Tic-Tac-Toe game on an STM32F429i Discovery Board, focusing on integrating peripherals via the HAL, handling external interrupts for user input, and using timers to manage game timing. An AI opponent was created using RNG for single-player mode.
+## Project Overview
+
+This project showcases a full implementation of the classic **Tic-Tac-Toe game** on the **STM32F429i Discovery Board**.  
+Built as the final project for *ECEN 2370 – Embedded Systems*, the goal was to integrate multiple peripherals and concepts learned throughout the course, including interrupts, timers, and RNG.
+
+The game features **two modes** (single player and multiplayer), a clean **LCD-based UI**, and an AI opponent driven by pseudo-random logic. It also tracks wins, losses, and elapsed game time — offering a complete and interactive embedded experience.
+<br><br>
+
+--- 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/emb_codeHier.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/embed/emb_codeHier.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/emb_board2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/embed/emb_board2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This was my final project for ECEN 2370 - Embedded Systems. It is an implementation of the known and loved game of Tic-Tac-Toe using a STM32F429i Discovery Board. This project relies on the effective use of the HAL (Hardware Abstraction Layer) in order to correctly access and manipulate the peripherals from the board in order to implement the game functionality.  The game allows for 2 playing modes, single player and multiplayer respectively, as well as accurate tracking of playing time and total record of wins. 
+    A responsive, real-time game implemented entirely through embedded C and STM32 HAL.
 </div>
+<br><br>
+
+
+---
 
 <div class="project-scope mt-4">
   <h3>Project Scope</h3>
@@ -57,7 +69,9 @@ This project features a fully implemented Tic-Tac-Toe game on an STM32F429i Disc
     </li>
   </ul>
 </div>
+<br><br>
 
+---
 <div class="key-features mt-4"> 
     <h3>Key Features</h3> 
     <ul> 
@@ -67,8 +81,21 @@ This project features a fully implemented Tic-Tac-Toe game on an STM32F429i Disc
     <li>Implemented <strong>external interrupts</strong> for user input and game resets.</li>
     </ul> 
 </div>
+<br><br>
+
+---
+## Technical Stack
+- **Hardware:** STM32F429i Discovery Board  
+- **Language:** C (Embedded C)  
+- **Framework:** STM32CubeIDE, STM32 HAL (Hardware Abstraction Layer)  
+- **Concepts:** Timers, RNG, External Interrupts, FSMs  
+- **Display Interface:** LCD display via memory-mapped I/O  
+- **Tools:** STM32CubeMX, JTAG Debugger, Logic Analyzer (for testing input timing)
+<br><br>
+
+---
+## Project Documentation
 
 <div class="project-pdf mt-4">
-  <h3>Project Documentation</h3>
     <iframe src="/assets/pdf/emb_doc.pdf" width="100%" height="800px"></iframe>
 </div>

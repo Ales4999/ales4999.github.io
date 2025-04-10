@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my interesting projects.
+description: A curated collection of projects that showcase my skills. Each project reflects hands-on experience, problem-solving, and a commitment to building impactful, real-world solutions.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [School, Personal]
 horizontal: false
 ---
 
