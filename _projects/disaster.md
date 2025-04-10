@@ -1,9 +1,9 @@
 ---
 layout: page
-title: ML Disaster Relief
-description: Leveraging ML for Disaster Risk Prediction and Resource Allocation 
-img: /assets/img/ml/ml_cover.png
-importance: 2
+title: Disaster Relief Prediction
+description: Leveraging Machine Learning for Disaster Risk Prediction and Resource Allocation 
+img: /assets/img/ml/ml.png
+importance: 3
 category: School
 ---
 

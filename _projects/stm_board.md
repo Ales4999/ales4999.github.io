@@ -2,8 +2,8 @@
 layout: page
 title: Tic-Tac-Toe Game on STM32 Board
 description: STM32 Tic-Tac-Toe Game with HAL, Interrupts, and Timers
-img: assets/img/embed/emd_board.jpg
-importance: 3
+img: assets/img/embed/tictac.png
+importance: 5
 category: School
 ---
 

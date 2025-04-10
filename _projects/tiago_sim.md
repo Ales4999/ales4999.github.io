@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Fully Automonmous Robot
+title: Automonmous Robot Manipulator
 description: CSCI3302 Final project 
-img: assets/img//tiago/project_robo.jpg
-importance: 1
+img: assets/img//tiago/tiago.png
+importance: 4
 category: School
 related_publications: false
 ---

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Comp-Sci Undergrad Student</strong> @ <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a> <br></br> <code>Dean’s List | BOLD Scholar | Summit Foundation & Ted Sizer Award Recipient</code><br> <br></br> <strong>What I like:</strong>  <code>Sofware</code> | <code>Teamwork</code> | <code>Personal Growth</code> 
+subtitle: <strong>Comp-Sci Undergrad Student</strong> @ <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a> <br></br> <code>Dean’s List | BOLD Scholar | Summit Foundation & Ted Sizer Award Recipient</code><br> <br></br>  <code>Sofware</code> | <code>Teamwork</code> | <code>Personal Growth</code> 
 
 profile:
   align: right
@@ -23,19 +23,19 @@ social: true # includes social icons at the bottom of the page
 I'm a **Computer Science student** at the <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a>, graduating in **May 2025**, with minors in <a href="https://www.colorado.edu/business/academic-programs/minor-business">Business</a> and <a href="https://www.colorado.edu/academics/minor-computer-engineering">Computer Engineering</a>. My passion lies in building systems that are **scalable**, **impactful**, and **reliable**. 
 
 ### My Intersets 
-- <a href="https://ales4999.github.io/projects/1_project/">Software Development</a> — I enjoy building scalable, elegant software that solves real-world problems and delivers lasting impact.
+- <a href="https://ales4999.github.io/projects/hackcu11/">Software Development</a> — I enjoy building scalable, elegant software that solves real-world problems and delivers lasting impact.
 
 
-- <a href="https://ales4999.github.io/projects/1_project/">Robotics</a> — I’m driven by the challenge of bringing machines to life, combining hardware and algorithms to create systems that interact with the world around them.
+- <a href="https://ales4999.github.io/projects/tiago_sim/">Robotics</a> — I’m driven by the challenge of bringing machines to life, combining hardware and algorithms to create systems that interact with the world around them.
 
 
-- <a href="https://ales4999.github.io/projects/5_project/">AI/Machine Learning</a> — I love using data to uncover insights, make smart predictions, and continuously improve system performance.
+- <a href="https://ales4999.github.io/projects/disaster/">AI/Machine Learning</a> — I love using data to uncover insights, make smart predictions, and continuously improve system performance.
 
 
-- <a href="https://ales4999.github.io/projects/3_project/">Embedded Systems</a> — I’m passionate about programming close to the hardware to create fast, efficient systems that power smart devices.
+- <a href="https://ales4999.github.io/projects/stm_board/">Embedded Systems</a> — I’m passionate about programming close to the hardware to create fast, efficient systems that power smart devices.
 
 
-- <a href="https://ales4999.github.io/projects/1_project/">Networking Systems</a> — I value designing reliable, high-performance communication systems that keep devices and people connected.
+- <a href="https://ales4999.github.io/projects/network/">Networking Systems</a> — I value designing reliable, high-performance communication systems that keep devices and people connected.
 <br><br>
 
 ---

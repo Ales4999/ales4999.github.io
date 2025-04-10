@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Take-a-Note – AI-Powered Note-Taking App
+title: AI-Powered Note-Taking App
 description: HackCU11 project using Whisper & GPT-4 for real-time transcription and summarization
-img: /assets/img/takeanote/take_home.png
+img: /assets/img/takeanote/take_a_note.png
 importance: 2
 category: School
 ---
