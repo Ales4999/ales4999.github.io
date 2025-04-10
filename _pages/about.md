@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Comp-Sci Undergrad Student</strong> @ <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a> <br></br> <code>Dean’s List | BOLD Scholar | Summit Foundation & Ted Sizer Award Recipient</code><br> <br></br>  <code>Sofware</code> | <code>Teamwork</code> | <code>Personal Growth</code> 
+subtitle: <strong>Comp-Sci Undergrad Student</strong> @ <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a> <br></br> <code>Dean’s List | BOLD Scholar | Summit Foundation & Ted Sizer Award Recipient</code><br> <br></br> <code>Software</code> | <code>Teamwork</code> | <code>Personal Growth</code> 
 
 profile:
   align: right
@@ -20,9 +20,10 @@ social: true # includes social icons at the bottom of the page
 ## Hi, I’m Alberto!
 
 
-I'm a **Computer Science student** at the <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a>, graduating in **May 2025**, with minors in <a href="https://www.colorado.edu/business/academic-programs/minor-business">Business</a> and <a href="https://www.colorado.edu/academics/minor-computer-engineering">Computer Engineering</a>. My passion lies in building systems that are **scalable**, **impactful**, and **reliable**. 
+I'm a **Computer Science student** at the <a href="https://www.colorado.edu/cs">University of Colorado Boulder</a>, graduating in **May 2025**, with minors in <a href="https://www.colorado.edu/business/academic-programs/minor-business">Business</a> and <a href="https://www.colorado.edu/academics/minor-computer-engineering">Computer Engineering</a>.
 
-### My Intersets 
+
+### My Interests 
 - <a href="https://ales4999.github.io/projects/hackcu11/">Software Development</a> — I enjoy building scalable, elegant software that solves real-world problems and delivers lasting impact.
 
 
@@ -36,6 +37,12 @@ I'm a **Computer Science student** at the <a href="https://www.colorado.edu/cs">
 
 
 - <a href="https://ales4999.github.io/projects/network/">Networking Systems</a> — I value designing reliable, high-performance communication systems that keep devices and people connected.
+
+My <code>passion</code> lies in building systems that are **scalable**, **impactful**, and **reliable**. 
+
+I’m drawn to <code>solving complex problems</code> through thoughtful design and clean code, whether that’s developing full-stack applications, working close to the hardware, or leveraging data and machine learning to drive smart solutions. 
+
+I value systems that not only function well, but grow gracefully and make a <code>meaningful difference</code>.
 <br><br>
 
 ---
