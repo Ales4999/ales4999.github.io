@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous Vehicle Competition
-description: A competition-grade autonomous racing platform using ROS2, LiDAR, PID, and MPC
+description: Team-built autonomous DeepRacer-style car using ROS 2, camera line following and PID control
 img: /assets/img/deepracer/aws_thumb.png
 importance: 1
 category: School
@@ -9,56 +9,55 @@ category: School
 
 ## Project Overview
 
-This project was developed as part of a competitive robotics challenge to build a custom **AWS DeepRacer** platform.  
+Final project for **CSCI 4302/5302 Advanced Robotics** at CU Boulder (Spring 2025), built by a team of five ("How Hard Can It Be"). Each team built a vehicle that drives a closed-loop indoor track fully autonomously, judged on average lap time and on the challenge features it completes.
 
-Using a **Raspberry Pi**, **LiDAR**, **camera**, and **ROS2**, the team engineered a fully autonomous system capable of navigating a closed-loop track with real-time obstacle avoidance, robust localization, and adaptive path planning.
+We chose four challenges worth 9 points: **camera-based line following** (5), **stop-sign detection** (2), **two different control approaches** (1) and a **vehicle telemetry visualizer** (1).
 
-Our team focused on building a reliable and fast robot for the indoor track competition, prioritizing robust control, accurate localization, and real-time responsiveness.
-
----
-
-## Development
-
-We develop the **robot’s localization and control stack**, including:
-
-- Engineering a LiDAR-based **Extended Kalman Filter (EKF)** fused with **optic flow** from the Pi Camera to estimate velocity and heading without relying on an IMU.
-- Implementing **PID** and **Model Predictive Control (MPC)** strategies for high-speed maneuvering and trajectory stabilization.
-- Designing the **A\*** path planning algorithm for route selection, integrating real-time obstacle detection and avoidance.
-- Achieved 100% lap completion with minimal deviation and smooth turns on a tight indoor track.
+We deliberately kept the design simple. Instead of computationally heavy methods such as SLAM or an EKF, the car follows blue tape marking the track centre, and a tuned **PID** controller does the steering.
 
 ---
 
-## Hardware Integration
+## My role
 
-Building the autonomous DeepRacer platform required seamless coordination between various hardware components. The integration process included:
+I built the **telemetry visualizer**: a ROS 2 node that subscribes to the robot's topics and draws a live dashboard with:
+- the lidar point map around the robot
+- the camera feed with the line-detection overlay
+- throttle and steering commands
+- a line-error graph showing how far the car is from the line
 
-- **Raspberry Pi** served as the central processing unit, running ROS2 nodes for perception, planning, and control.
-- **2D LiDAR** was mounted on the chassis to provide distance measurements for localization and obstacle detection. Data was published to ROS topics and fused using an EKF node.
-- A **Pi Camera** was positioned forward-facing, used for optic flow estimation and basic visual localization.  
-- A **custom 3D-printed sensor mount** was designed to align all sensors for minimal distortion and secure operation on the track.
-- **Motor controller and wheel encoders** were configured to receive motion commands via ROS2 `cmd_vel` topics, enabling velocity and turn rate execution.
-
-This modular hardware setup enabled us to test and tune components individually, then synchronize them for full autonomy in real-time racing conditions.
+The team used it to tune the controller and debug the robot by comparing what we expected with what the robot was doing.
 
 ---
 
-## Key Features
+## How it works
 
-- LiDAR-driven **EKF localization**, improved by 80% using optic flow for poor-man’s IMU estimation.
-- Dual-controller design using **PID** and **MPC** for comparison, improving **trajectory stability by 60%**.
-- Real-time **path planning** using A* on a pre-mapped environment with dynamic obstacle avoidance.
-- Modular **ROS2-based architecture**, supporting flexible debugging and visualization tools.
-- Completed full laps with **100% reliability** in a constrained indoor environment.
+- **Perception:** the camera frame goes through an HSV mask that isolates the blue tape. Line detection computes a "line error" (distance between the frame centre and the path line) and detects corners ahead of sharp turns.
+- **Control:** a PID steering node with tuned gains and a second-order derivative estimate. A velocity-scaling rule slows the car on sharp turns. A bang-bang controller was the comparison baseline; it oscillated and was dropped.
+- **Stop signs:** a red colour mask plus contour area and side-length checks detect the sign. A state machine stops, waits, then continues.
+- **ROS 2 topics:** `image_raw` → line error → `cmd_vel` to the servo driver; the lidar `scan` topic feeds obstacle handling.
+
+---
+
+## Hardware
+
+- Raspberry Pi 4 (8 GB) on a laser-cut base plate, PCA9685 servo hat (I2C) for throttle and steering
+- RPLiDAR A1, Raspberry Pi Camera v2 on an adjustable mount
+- Two power supplies (2S LiPo for the motors, a separate battery for the Pi)
+- Rebuilt frame and lidar mount so the battery sits below the Pi for stability
+
+---
+
+## What we learned
+
+The heuristic, vision-only approach worked in the controlled track but struggled at higher speeds because of sensor noise and throttle nonlinearities. A successive-loop-closure controller (lidar wall-centering outside, camera line-following inside) was explored but not finished in time. The next step would be proper state estimation (for example an EKF) and SLAM.
 
 ---
 
 ## Technical Stack
 
-- **Hardware:** Raspberry Pi, 2D LiDAR, Pi Camera, custom sensor mount  
-- **Software:** ROS2 (Foxy), Python, OpenCV, NumPy, FFmpeg, Linux  
-- **Control Systems:** EKF, PID, MPC  
-- **Planning:** A*, real-time obstacle detection and avoidance  
-- **Tools:** RViz, ROS2 Nodes, Custom Visualizers, Git
+- **Software:** ROS 2, Python, OpenCV, NumPy, Matplotlib, Linux
+- **Control:** PID (primary), bang-bang (baseline), velocity scaling
+- **Hardware:** Raspberry Pi 4, RPLiDAR A1, Pi Camera v2, PCA9685
 
 ---
 
@@ -66,18 +65,9 @@ This modular hardware setup enabled us to test and tune components individually,
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/deepracer/aws_logo.png" title="Path Planning Map View" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/deepracer/aws_logo.png" title="AWS DeepRacer" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/deepracer/aws_robo.png" title="Custom DeepRacer Hardware" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/deepracer/aws_robo.png" title="Our team's vehicle" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-
----
-
-## Competition Context
-
-This work was completed for **CSCI 5302: Advanced Robotics** at CU Boulder.  
-The robot was evaluated based on performance in the **indoor track competition**, with objectives including fast lap time, successful obstacle avoidance, and stable localization without GPS or traditional IMUs.
-
-Our solution focused on minimal sensor use, prioritizing algorithmic efficiency, redundancy, and reliability.
