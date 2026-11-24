@@ -86,15 +86,14 @@
     {
       "name": "AWS DeepRacer Autonomous Vehicle",
       "url": "https://ales4999.github.io/projects/deepracer/",
-      "position": "Embedded Systems & Controls Engineer",
+      "position": "Team member (team of 5), Advanced Robotics",
       "location": "Boulder, CO",
       "startDate": "2025-01-14",
       "endDate": "2025-05-08",
-      "summary": "Designed an autonomous vehicle using Raspberry Pi, LiDAR, ROS2, and camera modules for local edge-compute driving.",
+      "summary": "Team-built autonomous vehicle (Raspberry Pi 4, RPLiDAR, Pi Camera, ROS 2) using camera line following, stop-sign detection and PID control.",
       "highlights": [
-        "Boosted localization by 80% using EKF and optical flow fusion.",
-        "Implemented PID and MPC controllers to cut trajectory deviation by 60%.",
-        "Achieved smooth lap performance and control stability."
+        "Built the real-time ROS 2 telemetry visualizer (lidar map, camera line-detection overlay, throttle/steering, line-error graph) used to tune and debug the controller.",
+        "Team completed the camera line-following, stop-sign detection, two-controller (PID vs bang-bang) and visualizer challenges."
       ]
     },
     {
